@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classic Blog without Sidebar – Kaffa</title>
+
+  <link rel="shortcut icon" href="assets/img/cropped-favicon-300x300.png" type="image/x-icon">
+
+
+  <!-- font link -->
+  <link rel="stylesheet" href="assets/css/fonts.css">
+
+
+  <!-- bootstrap link -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- fontawasom link -->
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <!-- css link -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+</head>
+
+<body class="">
+
+  <!-- HEADER START -->
+
+  <header>
+    <nav class="navbar position-absolute navbar-expand-xl  w-100">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/kaffa_logo_light_1x.png" alt="" width="80">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav main ms-auto mb-2 mb-lg-0 pe-3  ">
+            <li class="nav-item">
+              <a class="nav-link active text-white color-primery me-2 fw-bold" style="position: relative;"
+                aria-current="page" href="../index.html">Home <i class="fa-solid fa-chevron-left icon" style="font-size: 10px;"></i>
+                <div class="dropdown">
+                  <ul type="none" class="bg-light p-1"
+                    style="position: absolute; left: 50%; transform: translateX(-50%); width: 200px;">
+                    <li class="text-dark p-2"><a href="#">Natural cofee</a></li>
+                    <li class="text-dark p-2 "><a href="#">Cofee home</a></li>
+                    <li class="text-dark p-2 "><a href="#">Parallax page</a></li>
+                    <li class="text-dark p-2 "><a href="#">Cofee shop</a></li>
+                    <li class="text-dark p-2 "><a href="#">Cafetarea</a></li>
+                    <li class="text-dark p-2 "><a href="#">Craft cofee</a></li>
+                    <li class="text-dark p-2 "><a href="#">Natural cofee RTL</a></li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white me-2 fw-bold " aria-current="page" href="#">About Us <i
+                  class="fa-solid fa-chevron-left icon" style="font-size: 10px;"></i>
+                <div class="dropdown">
+                  <ul type="none" class="bg-light p-1" style="position: absolute; left: 50%; transform: translateX(-50%); width: 200px;">
+                    <li class="text-dark p-2"><a href="#">Testimonials</a></li>
+                    <li class="text-dark p-2 "><a href="#">FAQ</a></li>
+                    <li class="text-dark p-2 "><a href="#">Gallary</a></li>
+                    <li class="text-dark p-2 "><a href="../404 page/index.html">404 pages</a></li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white me-2 fw-bold" aria-current="page" href="#">Products <i
+                  class="fa-solid fa-chevron-left icon" style="font-size: 10px;"></i>
+                <div class="dropdown">
+                  <ul type="none" class="bg-light p-1"
+                    style="position: absolute; left: 50%; transform: translateX(-50%); width: 200px;">
+                    <li class="text-dark p-2"><a href="#">shop</a> </li>
+                    <li class="text-dark p-2 "><a href="../cart/index.html">cart</a> </li>
+                    <li class="text-dark p-2 "><a href="#">checkout</a> </li>
+                    <li class="text-dark p-2 "><a href="../my account/index.html">My account</a> </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white me-2 fw-bold" href="../classic blog/index.html">Blog 
+                <i
+                  class="fa-solid fa-chevron-left icon" style="font-size: 10px;">
+                </i>
+                <div class="dropdown ">
+                  <ul type="none" class="bg-light p-1"
+                    style="position: absolute; left: 50%; transform: translateX(-50%); width: 200px;">
+                    <li class="text-dark p-2"><a href="../classic blog/index.html">classic blog</a> </li>
+                    <li class="text-dark p-2"><a href="#">Blog with sidebar</a> </li>
+                    <li class="text-dark p-2 "><a href="#">Blog withour sidebar</a> </li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white me-2 fw-bold" aria-current="page" href="../contact/index.html">Contacs</a>
+            </li>
+
+          </ul>
+
+          <ul
+            class="navbar-nav center ms-auto mb-2 mb-lg-0 pe-3 border border-secondary border-top-0 border-bottom-0 ps-3">
+            <li class="nav-item">
+              <a class="nav-link active text-white color-primery call" aria-current="page" href="#"><i
+                  class="fa-solid fa-phone "></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white " aria-current="page" href="#">0905-456-987-3</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav end ms-auto mb-2 mb-lg-0 ps-3 icon ">
+            <li class="nav-item">
+              <a class="nav-link  text-white color-primery mx-2" aria-current="page"
+                href="../my account/index.html"><i class="fa-solid fa-user p-2"
+                  style="border: 1px #4d8b55 solid; border-radius: 50%; "></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white color-primery mx-2" aria-current="page" href="../cart/index.html"><i
+                  class="fa-solid fa-bag-shopping p-2" style="border: 1px #4d8b55 solid; border-radius: 50%;"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white color-primery ms-2 " aria-current="page" href="#"><i
+                  class="fa-solid fa-magnifying-glass p-2"
+                  style="border: 1px #4d8b55 solid; border-radius: 50%;"></i></a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- HEADER END -->
+
+  <!-- BANNER START -->
+
+  <section class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="banner-content d-flex flex-column text-center  text-white" style="margin: 250px 0 150px 0;">
+          <h1 class="fw-bold display-5">Classic Blog without Sidebar</h1>
+          <p style="font-size: 14px; font-weight: 600; " class="ms-2"><span class="color-primery fw-bold">Home</span>
+            <span class="mx-3">//</span> Classic Blog without Sidebar
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BANNER END -->
+
+  <!-- BLOG 1 START -->
+
+  <section class="blog1 my-5">
+    <div class="container" style="padding: 0 100PX;">
+      <div class="row">
+
+        <div class="card w-100 p-0" style="width: 18rem;">
+          <div class="blog-img">
+            <img src="assets/img/blog_01.jpg" class="img-fluid" alt="">
+          </div>
+
+          <div class="card-body">
+            <div class="d-flex justify-content-between py-3">
+              <a href="#">
+                <button class="rounded-pill text-white p-1 px-2" style="font-size: 12px;">Roasted coffe</button>
+              </a>
+
+            </div>
+
+
+            <h2 class=" fw-bold" style="font-size: 32px;">Coffee Machine Rental and Delivery Business
+            </h2>
+            <p class="mb-4 text-secondary" style="font-size: 13px; font-weight: 500;">Often the subject of controversy
+              among athletes and followers of a healthy lifestyle is disputes about the admissibility of drinking coffee
+              before or after training. This is normal because people who play sports try to monitor the health of their
+              bodies and eat predominantly healthy and non-harmful foods. And although the composition of the coffee
+              drink has long been studied by scientists, the debate about its effect on the body has not subsided so
+              far. But be that as it …
+
+            </p>
+
+
+            <ul type="none" class="p-0 d-flex ">
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-calendar-days color-primery me-1"></i>May 12, 2022</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-comment color-primery me-1"></i>0</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-eye color-primery me-1"></i>1</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG 1 END -->
+
+  <!-- BLOG 2 START -->
+
+  <section class="blog2 my-5">
+    <div class="container" style="padding: 0 100PX;">
+      <div class="row">
+
+        <div class="card w-100 p-0" style="width: 18rem;">
+          <div class="blog-img">
+            <img src="assets/img/blog_02.jpg" class="img-fluid  px-0" alt="">
+          </div>
+
+          <div class="card-body">
+            <div class="d-flex justify-content-between py-3">
+              <a href="#">
+                <button class="rounded-pill text-white p-1 px-2" style="font-size: 12px;">Roasted coffe</button>
+              </a>
+
+            </div>
+
+
+            <h2 class=" fw-bold" style="font-size: 32px;">The Most Expensive Cup of Coffee in the Usa
+
+            </h2>
+            <p class="mb-4 text-secondary" style="font-size: 13px; font-weight: 500;">Often the subject of controversy
+              among athletes and followers of a healthy lifestyle is disputes about the admissibility of drinking coffee
+              before or after training. This is normal because people who play sports try to monitor the health of their
+              bodies and eat predominantly healthy and non-harmful foods. And although the composition of the coffee
+              drink has long been studied by scientists, the debate about its effect on the body has not subsided so
+              far. But be that as it …
+
+            </p>
+
+
+            <ul type="none" class="p-0 d-flex ">
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-calendar-days color-primery me-1"></i>May 12, 2022</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-comment color-primery me-1"></i>0</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-eye color-primery me-1"></i>960</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG 2 END -->
+
+  <!-- BLOG 3 START -->
+
+  <section class="blog3 my-5">
+    <div class="container" style="padding: 0 100PX;">
+      <div class="row">
+
+        <div class="card w-100 p-0" style="width: 18rem;">
+          <div class="blog-img">
+            <img src="assets/img/blog_03.jpg" class="img-fluid  px-0" alt="">
+          </div>
+
+          <div class="card-body">
+            <div class="d-flex justify-content-between py-3">
+              <a href="#">
+                <button class="rounded-pill text-white p-1 px-2" style="font-size: 12px;">Roasted coffe</button>
+              </a>
+
+            </div>
+
+
+            <h2 class=" fw-bold" style="font-size: 32px;">History of Irish Coffee
+
+
+            </h2>
+            <p class="mb-4 text-secondary" style="font-size: 13px; font-weight: 500;">Often the subject of controversy
+              among athletes and followers of a healthy lifestyle is disputes about the admissibility of drinking coffee
+              before or after training. This is normal because people who play sports try to monitor the health of their
+              bodies and eat predominantly healthy and non-harmful foods. And although the composition of the coffee
+              drink has long been studied by scientists, the debate about its effect on the body has not subsided so
+              far. But be that as it …
+
+
+            </p>
+
+
+            <ul type="none" class="p-0 d-flex ">
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-calendar-days color-primery me-1"></i>May 12, 2022</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-comment color-primery me-1"></i>0</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-eye color-primery me-1"></i>878</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG 3 END -->
+
+
+  <!-- BLOG 4 START -->
+
+  <section class="blog4 my-5">
+    <div class="container" style="padding: 0 100PX;">
+      <div class="row">
+
+        <div class="card w-100 p-0" style="width: 18rem;">
+          <div class="blog-img">
+            <img src="assets/img/blog_04.jpg" class="img-fluid  px-0" alt="">
+          </div>
+
+          <div class="card-body">
+            <div class="d-flex justify-content-between py-3">
+              <a href="#">
+                <button class="rounded-pill text-white p-1 px-2" style="font-size: 12px;">Expresso</button>
+              </a>
+
+            </div>
+
+
+            <h2 class=" fw-bold" style="font-size: 32px;">Kinds of Grinding Coffee
+
+
+
+            </h2>
+            <p class="mb-4 text-secondary" style="font-size: 13px; font-weight: 500;">Often the subject of controversy
+              among athletes and followers of a healthy lifestyle is disputes about the admissibility of drinking coffee
+              before or after training. This is normal because people who play sports try to monitor the health of their
+              bodies and eat predominantly healthy and non-harmful foods. And although the composition of the coffee
+              drink has long been studied by scientists, the debate about its effect on the body has not subsided so
+              far. But be that as it …
+
+
+            </p>
+
+
+            <ul type="none" class="p-0 d-flex ">
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-calendar-days color-primery me-1"></i>May 12, 2022</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-comment color-primery me-1"></i>0</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-eye color-primery me-1"></i>878</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG 4 END -->
+
+  <!-- EXTRA 1 START -->
+
+  <section>
+    <div class="container my-5" style="padding: 0 100px;">
+      <div class="row">
+        <div class="card-body p-3" style="background-color:#efece5;">
+          <div class="d-flex justify-content-between py-3">
+            <a href="#">
+              <button class="rounded-pill text-white p-1 px-2" style="font-size: 12px;">Green coffee</button>
+            </a>
+
+          </div>
+
+
+          <h2 class=" fw-bold" style="font-size: 32px;">Packaging Coffee When Sold by Weight
+
+
+
+
+          </h2>
+          <p class="mb-4 text-secondary" style="font-size: 13px; font-weight: 500;">Often the subject of controversy
+            among athletes and followers of a healthy lifestyle is disputes about the admissibility of drinking coffee
+            before or after training. This is normal because people who play sports try to monitor the health of their
+            bodies and eat predominantly healthy and non-harmful foods. And although the composition of the coffee drink
+            has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be
+            that as it …
+
+
+
+          </p>
+
+
+          <ul type="none" class="p-0 d-flex ">
+            <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                class="fa-solid fa-calendar-days color-primery me-1"></i>December 9, 2019</li>
+            <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                class="fa-solid fa-comment color-primery me-1"></i>0</li>
+            <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                class="fa-solid fa-eye color-primery me-1"></i>778</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXTRA 1 END -->
+
+  <!-- BLOG 5 START -->
+
+  <section class="blog6 my-5">
+    <div class="container" style="padding: 0 100PX;">
+      <div class="row">
+
+        <div class="card w-100 p-0" style="width: 18rem;">
+          <div class="blog-img">
+            <img src="assets/img/blog_06.jpg" class="img-fluid  px-0" alt="">
+          </div>
+
+          <div class="card-body">
+            <div class="d-flex justify-content-between py-3">
+              <a href="#">
+                <button class="rounded-pill text-white p-1 px-2" style="font-size: 12px;">Green cpffee</button>
+              </a>
+
+            </div>
+
+
+            <h2 class=" fw-bold" style="font-size: 32px;">Delivery of Coffee Drinks
+
+
+
+
+            </h2>
+            <p class="mb-4 text-secondary" style="font-size: 13px; font-weight: 500;">Often the subject of controversy
+              among athletes and followers of a healthy lifestyle is disputes about the admissibility of drinking coffee
+              before or after training. This is normal because people who play sports try to monitor the health of their
+              bodies and eat predominantly healthy and non-harmful foods. And although the composition of the coffee
+              drink has long been studied by scientists, the debate about its effect on the body has not subsided so
+              far. But be that as it …
+
+
+            </p>
+
+
+            <ul type="none" class="p-0 d-flex ">
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-calendar-days color-primery me-1"></i>December 8, 2010</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-comment color-primery me-1"></i>0</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-eye color-primery me-1"></i>770</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BLOG 5 END -->
+
+  <!-- BLOG 6 START -->
+
+  <section class="blog7 my-5">
+    <div class="container" style="padding: 0 100PX;">
+      <div class="row">
+
+        <div class="card w-100 p-0" style="width: 18rem;">
+          <div class="blog-img">
+            <img src="assets/img/blog_05.jpg" class="img-fluid  px-0" alt="">
+          </div>
+
+          <div class="card-body">
+            <div class="d-flex justify-content-between py-3">
+              <a href="#">
+                <button class="rounded-pill text-white p-1 px-2" style="font-size: 12px;">Green cpffee</button>
+              </a>
+
+            </div>
+
+
+            <h2 class=" fw-bold" style="font-size: 32px;">Choosing a Home Coffee Machine
+
+            </h2>
+            <p class="mb-4 text-secondary" style="font-size: 13px; font-weight: 500;">Often the subject of controversy
+              among athletes and followers of a healthy lifestyle is disputes about the admissibility of drinking coffee
+              before or after training. This is normal because people who play sports try to monitor the health of their
+              bodies and eat predominantly healthy and non-harmful foods. And although the composition of the coffee
+              drink has long been studied by scientists, the debate about its effect on the body has not subsided so
+              far. But be that as it …
+
+
+            </p>
+
+
+            <ul type="none" class="p-0 d-flex ">
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-calendar-days color-primery me-1"></i>November 8, 2019</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-comment color-primery me-1"></i>0</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-eye color-primery me-1"></i>750</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BLOG 6 END -->
+
+  <!-- BLOG 7 START -->
+
+  <section class="blog8 my-5">
+    <div class="container" style="padding: 0 100PX;">
+      <div class="row">
+
+        <div class="card w-100 p-0" style="width: 18rem;">
+          <div class="blog-img">
+            <img src="assets/img/blog_08.jpg" class="img-fluid  px-0" alt="">
+          </div>
+
+          <div class="card-body">
+            <div class="d-flex justify-content-between py-3">
+              <a href="#">
+                <button class="rounded-pill text-white p-1 px-2" style="font-size: 12px;">Chocolate</button>
+              </a>
+
+            </div>
+
+
+            <h2 class=" fw-bold" style="font-size: 32px;">The Difference Between Arabica and Robusta
+
+
+            </h2>
+            <p class="mb-4 text-secondary" style="font-size: 13px; font-weight: 500;">Often the subject of controversy
+              among athletes and followers of a healthy lifestyle is disputes about the admissibility of drinking coffee
+              before or after training. This is normal because people who play sports try to monitor the health of their
+              bodies and eat predominantly healthy and non-harmful foods. And although the composition of the coffee
+              drink has long been studied by scientists, the debate about its effect on the body has not subsided so
+              far. But be that as it …
+
+
+            </p>
+
+
+            <ul type="none" class="p-0 d-flex ">
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-calendar-days color-primery me-1"></i>November 8, 2019</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-comment color-primery me-1"></i>0</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-eye color-primery me-1"></i>750</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BLOG 7 END -->
+
+   <!-- BLOG 8 START -->
+
+   <section class="blog8 my-5">
+    <div class="container" style="padding: 0 100PX;">
+      <div class="row">
+
+        <div class="card w-100 p-0" style="width: 18rem;">
+          <div class="blog-img">
+            <img src="assets/img/blog_13.jpg" class="img-fluid  px-0" alt="">
+          </div>
+
+          <div class="card-body">
+            <div class="d-flex justify-content-between py-3">
+              <a href="#">
+                <button class="rounded-pill text-white p-1 px-2" style="font-size: 12px;">Chocolate</button>
+              </a>
+
+            </div>
+
+
+            <h2 class=" fw-bold" style="font-size: 32px;">Coffee Storage Basics
+
+
+            </h2>
+            <p class="mb-4 text-secondary" style="font-size: 13px; font-weight: 500;">Often the subject of controversy
+              among athletes and followers of a healthy lifestyle is disputes about the admissibility of drinking coffee
+              before or after training. This is normal because people who play sports try to monitor the health of their
+              bodies and eat predominantly healthy and non-harmful foods. And although the composition of the coffee
+              drink has long been studied by scientists, the debate about its effect on the body has not subsided so
+              far. But be that as it …
+
+
+            </p>
+
+
+            <ul type="none" class="p-0 d-flex ">
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-calendar-days color-primery me-1"></i>November 8, 2019</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-comment color-primery me-1"></i>0</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-eye color-primery me-1"></i>750</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BLOG 8 END -->
+
+    <!-- EXTRA 2 START -->
+
+    <section>
+      <div class="container my-5" style="padding: 0 100px;">
+        <div class="row">
+          <div class="card-body p-3" style="background-color:#efece5;">
+            <div class="d-flex justify-content-between py-3">
+              <a href="#">
+                <button class="rounded-pill text-white p-1 px-2" style="font-size: 12px;">coffee shop</button>
+              </a>
+  
+            </div>
+  
+  
+            <h2 class=" fw-bold" style="font-size: 32px;">The Evolution of Coffee Shop Business
+
+  
+  
+  
+  
+            </h2>
+            <p class="mb-4 text-secondary" style="font-size: 13px; font-weight: 500;">Often the subject of controversy among athletes and followers of a healthy lifestyle is disputes about the admissibility of drinking coffee before or after training. This is normal because people who play sports try to monitor the health of their bodies and eat predominantly healthy and non-harmful foods. And although the composition of the coffee drink has long been studied by scientists, the debate about its effect on the body has not subsided so far. But be that as it …
+
+  
+  
+  
+            </p>
+  
+  
+            <ul type="none" class="p-0 d-flex ">
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-calendar-days color-primery me-1"></i>November 30, 2018</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-comment color-primery me-1"></i>0</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-eye color-primery me-1"></i>778</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- EXTRA 2 END -->
+
+
+    <!-- BLOG 9 START -->
+
+   <section class="blog9 my-5 ">
+    <div class="container" style="padding: 0 100PX;">
+      <div class="row">
+
+        <div class="card w-100 p-0" style="width: 18rem;">
+          <div class="blog-img">
+            <img src="assets/img/blog_09.jpg" class="img-fluid  px-0" alt="">
+          </div>
+
+          <div class="card-body">
+            <div class="d-flex justify-content-between py-3">
+              <a href="#">
+                <button class="rounded-pill text-white p-1 px-2" style="font-size: 12px;">Chocolate</button>
+              </a>
+
+            </div>
+
+
+            <h2 class=" fw-bold" style="font-size: 32px;">Basic Mistakes when Making Coffee
+
+
+
+            </h2>
+            
+
+            <ul type="none" class="p-0 d-flex ">
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-calendar-days color-primery me-1"></i>November 8, 2019</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-comment color-primery me-1"></i>0</li>
+              <li class="me-4 text-secondary" style="font-size: 14px; font-weight: 600;"><i
+                  class="fa-solid fa-eye color-primery me-1"></i>750</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BLOG 9 END -->
+
+
+
+
+
+  <!-- FOOTER START -->
+
+  <footer class="text-white position-relative  mt-5" style="padding: 0 0 50px 0;">
+    <div class="container" style="padding-top: 100px;">
+      <div class="row">
+        <div class="col-12  col-xl-4" style="padding-right: 60px;">
+          <img src="assets/img/kaffa_logo_light_1x.png" class="img-fluid mb-4" alt="">
+          <p class="color-grey w-80" style="font-size: 14px; word-spacing: 5px; ">Etiam consequat sem ullamcorper,
+            euismod
+            metus sit amet, tristique justo. Vestibulum
+            mattis, nisi ut.
+
+          </p>
+          <ul class=" d-flex color-primery p-0 mt-5" style="list-style-type: none;">
+            <li><i class=" social fa-brands fa-twitter me-5"></i></li>
+            <li><i class=" social fa-brands fa-facebook-f me-5"></i></li>
+            <li><i class=" social fa-brands fa-instagram  me-5"></i></li>
+            <li><i class=" social fa-brands fa-youtube  me-5"></i></li>
+          </ul>
+        </div>
+        <div class="col-6 col-sm-12 col-lg-6 col-xl-4 my-sm-4 my-lg-3 my-xl-0">
+          <div>
+            <h3
+              class="color-primery fs-4 border border-top-0 border-start-0 border-end-0 border-2 border-success  w-75 mb-5 pb-1 "
+              style="font-weight: 600;">Contact Info
+            </h3>
+            <div class="watch d-flex mb-4 ">
+              <i class="fa-solid fa-location-dot me-3 fs-4 color-primery mb-1"></i>
+              <div>
+                <h6 class="mb-0 color-primery fw-bold">Our location:
+                </h6>
+                <span class="text-white">
+                  Rio de Janeiro, RJ Brazil, 04103 Route
+
+                </span>
+              </div>
+            </div>
+            <div class="watch d-flex  ">
+              <i class="fa-solid fa-phone-volume  me-3 fs-5 color-primery"></i>
+              <div>
+                <h6 class="mb-0 color-primery fw-bold mb-1">Phones:
+                </h6>
+                <div class="d-flex flex-column">
+                  <span class="text-white mb-1">
+                    +49078-039-23-11
+                  </span>
+                  <span class="text-white">
+                    +49078-028-55-60
+                  </span>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+        <div class="col-6 col-sm-12 col-lg-6 col-xl-4 my-sm-4 my-lg-3 my-xl-0">
+          <div>
+            <h3
+              class="color-primery fs-4 border border-top-0 border-start-0 border-end-0 border-2 border-success  w-75 mb-5 pb-1 "
+              style="font-weight: 600;">
+              Subscribe
+            </h3>
+          </div>
+          <form action="">
+            <div class="mb-2 position-relative">
+              <input type="email" placeholder="Your Email..." class=" rounded-pill"
+                style="position: absolute; width: 100%; height:65px; padding-left: 10px; ">
+
+              <button id="btn-white" class=" rounded-pill   bg-primery text-white fw-bold px-5"
+                style="position: absolute; right: 0; height: 65px; ">
+                Subscribe
+              </button>
+            </div>
+            <div style="font-size: 14px;" class="color-grey">
+
+              <input type="checkbox" class="me-2 " style="margin-top: 80px; margin-left: 10px;"> I have read and agree
+              to the terms & conditions</input>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row">
+        <p class="position-absolute w-100" style="font-size: 15px;"> <span class="color-primery">Like-themes</span> ©
+          All Rights Reserved - 2020 - <span class="color-primery"> Purchase</span>
+
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FOOTER END -->
+
+
+  <!-- GO TOP BUTTON HTML START -->
+
+  <button class="scrollToTopBtn">
+    <img src="assets/img/favicon.png" width="30px" alt="">
+    <p> Go top</p>
+  </button>
+
+  <!-- GO TOP BUTTON HTML END -->
+
+
+
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <!-- BACK TO TOP BUTTON START -->
+  <script>
+    <!-- ====== SCROLL TO TOP SCRIPT ====== -->
+    var scrollToTopBtn = document.querySelector(".scrollToTopBtn")
+    var rootElement = document.documentElement
+
+    function handleScroll() {
+      // Do something on scroll - 0.15 is the percentage the page has to scroll before the button appears
+      // This can be changed - experiment
+      var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight
+      if ((rootElement.scrollTop / scrollTotal) > 0.15) {
+        // Show button
+        scrollToTopBtn.classList.add("showBtn")
+      } else {
+        // Hide button
+        scrollToTopBtn.classList.remove("showBtn")
+      }
+    }
+
+    function scrollToTop() {
+      // Scroll to top logic
+      rootElement.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      })
+    }
+    scrollToTopBtn.addEventListener("click", scrollToTop)
+    document.addEventListener("scroll", handleScroll)
+  </script>
+  <!-- BACK TO TOP BUTTON END -->
+
+</body>
+
+</html>

@@ -1,0 +1,199 @@
+body {
+	font-family: 'Poppins';
+	overflow-x: hidden;
+
+}
+.px-100{
+	padding: 0 100px !important;
+}
+a {
+	text-decoration: none !important;
+}
+
+
+button {
+	border: 0 !important;
+}
+
+.border-success {
+	border-color: #4d8b55 !important;
+}
+
+.bg-dark {
+	background-color: #151515 !important;
+}
+
+.color-grey {
+	color: rgb(175, 173, 173);
+}
+
+.navbar-collapse {
+	flex-grow: 0;
+}
+
+.bg-primery {
+	background-color: #4d8b55 !important;
+}
+
+.color-primery {
+	color: #4d8b55 !important;
+}
+
+.navbar-collapse .icon li a i:hover {
+	color: white !important;
+	transition: 0.5s;
+}
+
+header .navbar .collapse ul li a:hover {
+	color: #4d8b55 !important;
+	transition: 0.5s;
+}
+
+.dropdown {
+	opacity: 0;
+	visibility: hidden;
+	top: 80px;
+	transition: 0.7s;
+	z-index: 9999999;
+}
+
+.call:hover {
+	color: #4d8b55 !important;
+}
+
+header .call:hover {
+	color: #4d8b55 !important;
+}
+
+.navbar-expand-xl .navbar-nav .nav-item:hover .dropdown{
+	opacity: 1;
+	visibility: visible;
+	top: 15px;
+}
+
+
+.dropdown ul li a{
+	padding-top: 0 !important;
+	color: black ;
+	font-weight: 600;
+}
+
+header .navbar .collapse ul li .dropdown ul li a:hover {
+	color: black !important;
+	
+}
+.dropdown ul li:hover  {
+	background-color: #4d8b55;
+}
+
+header .navbar .collapse ul li a:hover .icon {
+	transform: rotate(270deg);
+}
+header {
+	background-color: rgba(0, 0, 0, 0.925) !important;
+	background-blend-mode: darken;
+}
+
+.banner{
+	background-image: url(../img/inner_header_02.jpg) !important;
+	z-index: 999;
+	background-color: rgba(0, 0, 0, 0.545);
+	background-blend-mode: darken;
+	margin-bottom: 80px !important;
+	background-attachment: fixed;
+	background-size: cover !important;
+	background-repeat: no-repeat;
+
+}
+.banner-content p{
+	cursor: pointer !important;
+}
+p{
+	margin-bottom: 0 !important;
+
+}
+
+
+footer {
+	background-image: url(../img/footer-bg.jpg);
+	background-position: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow-x: hidden !important;
+	margin-right: 0 !important;
+}
+
+/* BACK TO TOP BUTTON START */
+
+.scrollToTopBtn {
+	background-color: black;
+	border: none;
+	border-radius: 50%;
+	color: white !important;
+	cursor: pointer;
+	font-size: 15px;
+	/* line-height: 48px; */
+	width: 80px;
+	height: 80px;
+		/* place it at the bottom right corner */
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+		/* keep it on top of everything else */
+	z-index: 100;
+		/* hide with opacity */
+	opacity: 0;
+		/* also add a translate effect */
+	transform: translateY(100px);
+		/* and a transition */
+	transition: all .5s ease
+  }
+
+  .showBtn {
+	opacity: 1;
+	transform: translateY(0)
+  }
+  
+
+
+/* BACK TO TOP BUTTON END */
+
+button {
+	background: linear-gradient(to bottom, #4d8b55 50%, rgb(0, 0, 0) 50%);
+	background-size: 100% 200%;
+	background-position: left top;
+
+	&:hover {
+		background-position: right bottom;
+		color: black;
+	}
+}
+
+button {
+	transition: all ease .3s;
+	font-weight: 600;
+}
+#btn-white{
+	background: linear-gradient(to bottom, #4d8b55 50%, rgb(255, 255, 255) 50%);
+	background-size: 100% 200%;
+	background-position: left top;
+
+	&:hover {
+		background-position: right bottom;
+		color: black !important;
+	}
+}
+#btn-white{
+	transition: all ease .3s;
+	font-weight: 600;
+}
+.blog-img{
+	overflow: hidden;
+
+}
+.card img{
+	transition: 0.5s;
+}
+.card img:hover{
+	transform: scale(1.1);
+}

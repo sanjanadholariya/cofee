@@ -65,15 +65,25 @@ header .navbar .collapse ul li a:hover {
 header .call:hover {
 	color: #4d8b55 !important;
 }
-
-header .navbar .collapse ul li a:hover .dropdown {
+.navbar-expand-xl .navbar-nav .nav-item:hover .dropdown {
 	opacity: 1;
 	visibility: visible;
-	top: 15px;
+	top: 0;
 }
 
-.dropdown ul li:hover {
-	color: white !important;
+
+
+.dropdown ul li a{
+	padding-top: 0 !important;
+	color: black ;
+	font-weight: 600;
+}
+
+header .navbar .collapse ul li .dropdown ul li a:hover {
+	color: black !important;
+	
+}
+.dropdown ul li:hover  {
 	background-color: #4d8b55;
 }
 
@@ -196,6 +206,11 @@ header .navbar .collapse ul li a:hover .icon {
 	font-size: 14px !important;
 	color: rgb(181, 180, 180);
 	margin: 20px 0;
+}
+.watch i:hover{
+	color: white !important;
+	cursor: pointer;
+
 }
 
 .contact {
